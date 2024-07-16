@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares">
-      <change afterPath="$PROJECT_DIR$/src/array/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/findMinimumArray.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="&#10;Criar uma funçao para retorar o valor minimo de um array">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FindSecondMaxNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MoveZeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/array/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/findMinimumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindMinimumNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +44,59 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayUtil.executor": "Run",
+    "Application.FindSecondMaxNum.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
     "Application.RemoveEvenInteger.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.findMinimumArray.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.findMinimumArray">
+  <component name="RunManager" selected="Application.MoveZeros">
+    <configuration name="FindMinimumNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindMinimumNum" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindSecondMaxNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindSecondMaxNum" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MoveZeros" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ReverseArray" />
       <module name="Data-Structures" />
@@ -66,22 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findMinimumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.findMinimumArray" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.findMinimumArray" />
+        <item itemvalue="Application.MoveZeros" />
+        <item itemvalue="Application.FindSecondMaxNum" />
+        <item itemvalue="Application.FindMinimumNum" />
         <item itemvalue="Application.ReverseArray" />
       </list>
     </recent_temporary>
@@ -110,12 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1721093157247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;Criar uma funçao para retorar o valor minimo de um array">
+      <option name="closed" value="true" />
+      <created>1721102029547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721102029547</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares" />
+    <MESSAGE value="&#10;Criar uma funçao para retorar o valor minimo de um array" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Criar uma funçao para retorar o valor minimo de um array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

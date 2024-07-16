@@ -1,10 +1,8 @@
 package array;
 
-import java.util.Arrays;
-
 import static array.ArrayUtil.printArray;
 
-public class findMinimumArray {
+public class FindMinimumNum {
     public static int findMinimum(int[] arr) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
