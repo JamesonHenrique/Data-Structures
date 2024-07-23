@@ -20,6 +20,14 @@ public class SimplyLinkedList {
 
 
     }
+    public void display() {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.data + " --> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
 
     public static void main(
             String[] args) {
@@ -33,10 +41,7 @@ public class SimplyLinkedList {
         second.next = third;
         third.next = fourth;
         fourth.next = fifth;
-        while (sll.head != null) {
-            System.out.print(sll.head.data + " --> ");
-            sll.head = sll.head.next;
-        }
+        sll.display();
         System.out.println("null");
 
     }
