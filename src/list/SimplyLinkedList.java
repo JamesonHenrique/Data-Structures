@@ -22,11 +22,23 @@ public class SimplyLinkedList {
     }
     public void display() {
         ListNode current = head;
+
         while (current != null) {
+
             System.out.print(current.data + " --> ");
             current = current.next;
         }
         System.out.println("null");
+
+    }
+    public int length() {
+        ListNode current = head;
+        int lenght = 0;
+        while (current != null) {
+            lenght++;
+            current = current.next;
+        }
+     return lenght;
     }
 
     public static void main(
@@ -42,6 +54,7 @@ public class SimplyLinkedList {
         third.next = fourth;
         fourth.next = fifth;
         sll.display();
+        System.out.println("Length of the list: " + sll.length());
         System.out.println("null");
 
     }
