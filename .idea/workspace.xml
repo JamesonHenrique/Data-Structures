@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar funçao display para mostrar os elementos da lista">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/FindMinimumNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindMinimumNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -55,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager" selected="Application.SimplyLinkedList">
