@@ -32,9 +32,6 @@ public class SimplyLinkedList {
 
     }
     public int length() {
-        if(head == null) {
-            return 0;
-        }
         ListNode current = head;
         int lenght = 0;
         while (current != null) {
@@ -43,34 +40,22 @@ public class SimplyLinkedList {
         }
      return lenght;
     }
-    public void insertFirst(int value) {
-        ListNode newNode = new ListNode(value);
-        newNode.next = head;
-        head = newNode;
-    }
-    public void insertLast(int value) {
-ListNode newNode = new ListNode(value);
-        if (head == null) {
-            head = newNode;
-            return;
-        }
-        ListNode current = head;
-        while (null != current.next) {
-            current = current.next;
-        }
-        current.next = newNode;
-    }
+
     public static void main(
             String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
-        sll.insertLast(1);
-        sll.insertLast(2);
-        sll.insertLast(3);
-        sll.insertLast(4);
-        sll.insertLast(5);
+        sll.head = new ListNode(10);
+        ListNode second = new ListNode(1);
+        ListNode third = new ListNode(8);
+        ListNode fourth = new ListNode(11);
+        ListNode fifth = new ListNode(5);
+        sll.head.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
         sll.display();
         System.out.println("Length of the list: " + sll.length());
-
+        System.out.println("null");
 
     }
 }
