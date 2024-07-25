@@ -49,16 +49,25 @@ public class SimplyLinkedList {
         head = newNode;
     }
     public void insertLast(int value) {
-
+ListNode newNode = new ListNode(value);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        ListNode current = head;
+        while (null != current.next) {
+            current = current.next;
+        }
+        current.next = newNode;
     }
     public static void main(
             String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
-        sll.insertFirst(1);
-        sll.insertFirst(2);
-        sll.insertFirst(3);
-        sll.insertFirst(4);
-        sll.insertFirst(5);
+        sll.insertLast(1);
+        sll.insertLast(2);
+        sll.insertLast(3);
+        sll.insertLast(4);
+        sll.insertLast(5);
         sll.display();
         System.out.println("Length of the list: " + sll.length());
 

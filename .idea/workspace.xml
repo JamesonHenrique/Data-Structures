@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao para verificar tamanho de um LinkedList">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao para inserir um valor no inicio de um linkedlist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721786174327</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implementar funçao para inserir um valor no inicio de um linkedlist">
+      <option name="closed" value="true" />
+      <created>1721787141113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721787141113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,7 +234,8 @@
     <MESSAGE value="Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades" />
     <MESSAGE value="Criar funçao display para mostrar os elementos da lista" />
     <MESSAGE value="Implementar funçao para verificar tamanho de um LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao para verificar tamanho de um LinkedList" />
+    <MESSAGE value="Implementar funçao para inserir um valor no inicio de um linkedlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao para inserir um valor no inicio de um linkedlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
