@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar funçao display para mostrar os elementos da lista">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/FindMinimumNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindMinimumNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,26 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayUtil.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindSecondMaxNum.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RemoveEvenInteger.executor": "Run",
-    "Application.Resize.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.SimplyLinkedList.executor": "Run",
-    "Application.findMinimumArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SimplyLinkedList">
     <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindMissingNumber" />
@@ -208,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721710799805</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist">
+      <option name="closed" value="true" />
+      <created>1721876043473</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721876043473</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,7 +226,8 @@
     <MESSAGE value="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array" />
     <MESSAGE value="Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades" />
     <MESSAGE value="Criar funçao display para mostrar os elementos da lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar funçao display para mostrar os elementos da lista" />
+    <MESSAGE value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

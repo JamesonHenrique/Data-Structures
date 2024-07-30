@@ -133,7 +133,20 @@ public class SimplyLinkedList {
             previous.next = current.next;
         }
     }
-
+    public void find(Object searchKey) {
+        ListNode current = head;
+        int count = 1;
+        while (current != null) {
+            if (current.data == searchKey) {
+                System.out.println("Found at position: " + count);
+                return;
+            }
+            current = current.next;
+            count++;
+        }
+        System.out.println("Not found");
+    }
+    
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
@@ -141,9 +154,10 @@ public class SimplyLinkedList {
         sll.insert(2, 2);
         sll.insert(6, 3);
         sll.display();
-     sll.delete(3);
+
 
         sll.display();
+        sll.find(4);
 
     }
 }
