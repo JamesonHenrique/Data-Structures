@@ -4,11 +4,11 @@ import java.util.List;
 
 public class SimplyLinkedList {
 
-    private ListNode head;
+    public ListNode head;
 
-    private static class ListNode<T> {
-        private T data;
-        private ListNode next;
+    public static class ListNode<T> {
+        public T data;
+        public ListNode next;
 
         public ListNode(T data) {
             this.data = data;
@@ -145,6 +145,23 @@ public class SimplyLinkedList {
             count++;
         }
         System.out.println("Not found");
+    }
+    public ListNode reverse() {
+        if (head == null) {
+            return null;
+        }
+        ListNode current = head;
+        ListNode prev = null;
+        ListNode next = null;
+
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+
+        return prev;
     }
     
     public static void main(String[] args) {
