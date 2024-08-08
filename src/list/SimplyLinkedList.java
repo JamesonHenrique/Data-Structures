@@ -240,6 +240,53 @@ public class SimplyLinkedList {
         }
         previous.next = current.next;
     }
+    public Boolean containsLoop() {
+        ListNode slowPtr = head;
+        ListNode fastPtr = head;
+        while (fastPtr != null && fastPtr.next != null) {
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
+            if (slowPtr == fastPtr) {
+                return true;
+            }
+        }
+        return false;
+    }
+    public ListNode getStartingNode(ListNode slowPtr) {
+
+        ListNode temp = head;
+        while (slowPtr != temp) {
+            slowPtr = slowPtr.next;
+            temp = temp.next;
+        }
+        return slowPtr;
+    }
+    public ListNode startNodeInALoop() {
+        ListNode slowPtr = head;
+        ListNode fastPtr = head;
+        while (fastPtr != null && fastPtr.next != null) {
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
+            if (slowPtr == fastPtr) {
+                return getStartingNode(slowPtr);
+            }
+        }
+        return null;
+    }
+    public void createALoopInLinkedList() {
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(3);
+        ListNode fourth = new ListNode(4);
+        ListNode fifth = new ListNode(5);
+        head = first;
+        first.next = second;
+        second.next = third;
+        third.next = fourth;
+        fourth.next = fifth;
+        fifth.next = second;
+        ;
+    }
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
@@ -260,6 +307,9 @@ public class SimplyLinkedList {
         sll.deleteNode(4);
         sll.display();
         sll.find(4);
+        sll.createALoopInLinkedList();
 
+        System.out.println("Starting node in a loop: " + sll.startNodeInALoop().data);
+        System.out.println("Contains loop: " + sll.containsLoop());
     }
 }
