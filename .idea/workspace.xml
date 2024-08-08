@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao para achar um elemento no linked list">
-      <change afterPath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Leetcode #206: Implementar funçao para reverter um LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
@@ -46,28 +45,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayUtil.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindSecondMaxNum.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RemoveEvenInteger.executor": "Run",
-    "Application.Resize.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseSimplyLinkedList.executor": "Run",
-    "Application.SimplyLinkedList.executor": "Run",
-    "Application.findMinimumArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReverseSimplyLinkedList">
+}</component>
+  <component name="RunManager">
     <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindMissingNumber" />
       <module name="Data-Structures" />
@@ -231,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722314643352</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Leetcode #206: Implementar funçao para reverter um LinkedList">
+      <option name="closed" value="true" />
+      <created>1722392264583</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722392264583</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +251,8 @@
     <MESSAGE value="Criar funçao display para mostrar os elementos da lista" />
     <MESSAGE value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
     <MESSAGE value="Implementar funçao para achar um elemento no linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao para achar um elemento no linked list" />
+    <MESSAGE value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

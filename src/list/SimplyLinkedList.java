@@ -163,16 +163,52 @@ public class SimplyLinkedList {
 
         return prev;
     }
-    
+    public ListNode getMiddleNode(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode slowPtr = head;
+        ListNode fastPtr = head;
+
+        while (fastPtr != null && fastPtr.next != null) {
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
+        }
+        return slowPtr;
+    }
+   public ListNode getNthFromEnd(int n) {
+        if (head == null) {
+            return null;
+        }
+        if (n <= 0) {
+            throw new IllegalArgumentException("Invalid value of n: " + n);
+        }
+        ListNode mainPtr = head;
+        ListNode refPtr = head;
+        int count = 0;
+        while (count < n) {
+            if (refPtr == null) {
+                throw new IllegalArgumentException(n + " is greater than the number of nodes in the list");
+            }
+            refPtr = refPtr.next;
+            count++;
+        }
+        while (refPtr != null) {
+            refPtr = refPtr.next;
+            mainPtr = mainPtr.next;
+        }
+        return mainPtr;
+    }
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
         sll.insert(1, 1);
-        sll.insert(2, 2);
-        sll.insert(6, 3);
+        sll.insert(2, 3);
+        sll.insert(6, 2);
+        sll.insert(4, 4);
         sll.display();
-
-
+        ListNode middleNode = sll.getMiddleNode(sll.head);
+        System.out.println("Middle node: " + middleNode.data);
         sll.display();
         sll.find(4);
 
