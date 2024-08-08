@@ -199,6 +199,31 @@ public class SimplyLinkedList {
         }
         return mainPtr;
     }
+    public void removeDuplicates() {
+        ListNode current = head;
+        while (current != null && current.next != null) {
+            if (current.data == current.next.data) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
+        }
+    }
+    public ListNode insertInSortedList(int value) {
+        ListNode newNode = new ListNode(value);
+        if (head == null || (int) head.data >= (int) newNode.data) {
+            newNode.next = head;
+            head = newNode;
+            return head;
+        }
+        ListNode current = head;
+        while (current.next != null && (int) current.next.data < (int) newNode.data) {
+            current = current.next;
+        }
+        newNode.next = current.next;
+        current.next = newNode;
+        return head;
+    }
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
@@ -206,9 +231,15 @@ public class SimplyLinkedList {
         sll.insert(2, 3);
         sll.insert(6, 2);
         sll.insert(4, 4);
+        sll.insert(4, 5);
         sll.display();
         ListNode middleNode = sll.getMiddleNode(sll.head);
+        ListNode nthNode = sll.getNthFromEnd(3);
         System.out.println("Middle node: " + middleNode.data);
+        System.out.println("Nth node from end: " + nthNode.data);
+        sll.display();
+        sll.insertInSortedList(7);
+        sll.removeDuplicates();
         sll.display();
         sll.find(4);
 

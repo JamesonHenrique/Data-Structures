@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Leetcode #206: Implementar funçao para reverter um LinkedList">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
@@ -238,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722392264583</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList">
+      <option name="closed" value="true" />
+      <created>1723081986321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723081986321</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -252,7 +260,8 @@
     <MESSAGE value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
     <MESSAGE value="Implementar funçao para achar um elemento no linked list" />
     <MESSAGE value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
+    <MESSAGE value="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
