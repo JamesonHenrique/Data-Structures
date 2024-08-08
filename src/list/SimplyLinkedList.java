@@ -224,6 +224,22 @@ public class SimplyLinkedList {
         current.next = newNode;
         return head;
     }
+    public void deleteNode(int key) {
+        ListNode current = head;
+        ListNode previous = null;
+        if (current != null && (int) current.data == key) {
+            head = current.next;
+            return;
+        }
+        while (current != null && (int) current.data != key) {
+            previous = current;
+            current = current.next;
+        }
+        if (current == null) {
+            return;
+        }
+        previous.next = current.next;
+    }
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
@@ -240,6 +256,8 @@ public class SimplyLinkedList {
         sll.display();
         sll.insertInSortedList(7);
         sll.removeDuplicates();
+        sll.display();
+        sll.deleteNode(4);
         sll.display();
         sll.find(4);
 
