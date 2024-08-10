@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,10 +134,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.ReverseSimplyLinkedList" />
         <item itemvalue="Application.SimplyLinkedList" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.Resize" />
       </list>
     </recent_temporary>
@@ -253,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723083180410</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implementar funçao para deletar um no com base no valor do elemento">
+      <option name="closed" value="true" />
+      <created>1723083813062</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723083813062</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop">
+      <option name="closed" value="true" />
+      <created>1723085821603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723085821603</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,7 +286,9 @@
     <MESSAGE value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
     <MESSAGE value="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList" />
     <MESSAGE value="Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao" />
+    <MESSAGE value="Implementar funçao para deletar um no com base no valor do elemento" />
+    <MESSAGE value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -287,6 +287,27 @@ public class SimplyLinkedList {
         fifth.next = second;
         ;
     }
+    public void removeLoop(ListNode slowPtr) {
+        ListNode temp = head;
+        while (slowPtr.next != temp.next) {
+            slowPtr = slowPtr.next;
+            temp = temp.next;
+        }
+        slowPtr.next = null;
+    }
+    public void removeLoop() {
+        ListNode slowPtr = head;
+        ListNode fastPtr = head;
+        while (fastPtr != null && fastPtr.next != null) {
+            slowPtr = slowPtr.next;
+            fastPtr = fastPtr.next.next;
+            if (slowPtr == fastPtr) {
+                removeLoop(slowPtr);
+                return;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         SimplyLinkedList sll = new SimplyLinkedList();
         sll.head = new ListNode(10);
@@ -310,6 +331,8 @@ public class SimplyLinkedList {
         sll.createALoopInLinkedList();
 
         System.out.println("Starting node in a loop: " + sll.startNodeInALoop().data);
+
+
         System.out.println("Contains loop: " + sll.containsLoop());
     }
 }
