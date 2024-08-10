@@ -4,7 +4,7 @@ import java.util.List;
 
 public class SimplyLinkedList {
 
-    public ListNode head;
+    public static ListNode head;
 
     public static class ListNode<T> {
         public T data;
@@ -18,7 +18,7 @@ public class SimplyLinkedList {
 
     }
 
-    public void display() {
+    public static void display() {
         ListNode current = head;
 
         while (current != null) {
@@ -146,23 +146,7 @@ public class SimplyLinkedList {
         }
         System.out.println("Not found");
     }
-    public ListNode reverse() {
-        if (head == null) {
-            return null;
-        }
-        ListNode current = head;
-        ListNode prev = null;
-        ListNode next = null;
 
-        while (current != null) {
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-        }
-
-        return prev;
-    }
     public ListNode getMiddleNode(ListNode head) {
         if (head == null) {
             return null;

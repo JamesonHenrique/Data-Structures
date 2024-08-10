@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes para remover um loop;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723085821603</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implementar funçoes para remover um loop;">
+      <option name="closed" value="true" />
+      <created>1723260482463</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723260482463</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,7 +297,8 @@
     <MESSAGE value="Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao" />
     <MESSAGE value="Implementar funçao para deletar um no com base no valor do elemento" />
     <MESSAGE value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
+    <MESSAGE value="Implementar funçoes para remover um loop;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes para remover um loop;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
