@@ -1,11 +1,9 @@
 package list.leetcode;
 
-import list.SimplyLinkedList;
-
-import java.util.List;
+import list.SinglyLinkedList;
 
 //Leetcode #206
-public class ReverseSimplyLinkedList extends SimplyLinkedList {
+public class ReverseSimplyLinkedList extends SinglyLinkedList {
 
 
     public static ListNode reverse() {

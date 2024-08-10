@@ -1,16 +1,16 @@
 package list;
 
-import java.util.List;
 
-public class SimplyLinkedList {
+
+public class SinglyLinkedList {
 
     public static ListNode head;
 
-    public static class ListNode<T> {
-        public T data;
+    public static class ListNode{
+        public int data;
         public ListNode next;
 
-        public ListNode(T data) {
+        public ListNode(int data) {
             this.data = data;
             this.next = null;
         }
@@ -18,16 +18,14 @@ public class SimplyLinkedList {
 
     }
 
-    public static void display() {
+    public void display() {
         ListNode current = head;
-
         while (current != null) {
-
             System.out.print(current.data + " --> ");
             current = current.next;
         }
-        System.out.println("null");
-
+        System.out.print("null");
+        System.out.println();
     }
 
     public int length() {
@@ -133,7 +131,7 @@ public class SimplyLinkedList {
             previous.next = current.next;
         }
     }
-    public void find(Object searchKey) {
+    public void find(Integer searchKey) {
         ListNode current = head;
         int count = 1;
         while (current != null) {
@@ -290,16 +288,19 @@ public class SimplyLinkedList {
                 return;
             }
         }
+
     }
 
     public static void main(String[] args) {
-        SimplyLinkedList sll = new SimplyLinkedList();
+        SinglyLinkedList sll = new SinglyLinkedList();
         sll.head = new ListNode(10);
         sll.insert(1, 1);
         sll.insert(2, 3);
         sll.insert(6, 2);
         sll.insert(4, 4);
         sll.insert(4, 5);
+
+
         sll.display();
         ListNode middleNode = sll.getMiddleNode(sll.head);
         ListNode nthNode = sll.getNthFromEnd(3);
@@ -318,5 +319,6 @@ public class SimplyLinkedList {
 
 
         System.out.println("Contains loop: " + sll.containsLoop());
+
     }
 }

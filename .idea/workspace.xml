@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes para remover um loop;">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar codigo">
+      <change afterPath="$PROJECT_DIR$/src/list/leetcode/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,34 +47,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayUtil.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.FindSecondMaxNum.executor": "Run",
+    "Application.MergeTwoSortedLists.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.RemoveEvenInteger.executor": "Run",
+    "Application.Resize.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.ReverseSimplyLinkedList.executor": "Run",
+    "Application.SimplyLinkedList.executor": "Run",
+    "Application.SinglyLinkedList.executor": "Run",
+    "Application.findMinimumArray.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindMissingNumber" />
+}]]></component>
+  <component name="RunManager" selected="Application.MergeTwoSortedLists">
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.leetcode.MergeTwoSortedLists" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="list.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.SimplyLinkedList" />
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.SinglyLinkedList" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.MergeTwoSortedLists" />
+        <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.ReverseSimplyLinkedList" />
-        <item itemvalue="Application.SimplyLinkedList" />
-        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Resize" />
+        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723260482463</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Refatorar codigo">
+      <option name="closed" value="true" />
+      <created>1723261023237</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723261023237</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -298,21 +309,7 @@
     <MESSAGE value="Implementar funçao para deletar um no com base no valor do elemento" />
     <MESSAGE value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
     <MESSAGE value="Implementar funçoes para remover um loop;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes para remover um loop;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/array/ReverseArray.java</url>
-          <line>20</line>
-          <properties class="array.ReverseArray" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refatorar codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorar codigo" />
   </component>
 </project>
