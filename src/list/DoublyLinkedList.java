@@ -20,7 +20,12 @@ public class DoublyLinkedList {
         this.tail = null;
         this.lenght = 0;
     }
-
+    public boolean isEmpty() {
+        return lenght == 0;
+    }
+    public int lenght() {
+        return lenght;
+    }
     public static void main(String[] args) {
 
     }
