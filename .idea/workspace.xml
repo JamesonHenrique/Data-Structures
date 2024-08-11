@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar codigo">
-      <change afterPath="$PROJECT_DIR$/src/list/leetcode/MergeTwoSortedLists.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada">
+      <change afterPath="$PROJECT_DIR$/src/list/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/leetcode/AddTwoNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/SimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/leetcode/ReverseSimplyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/leetcode/ReverseSinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,32 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayUtil.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindSecondMaxNum.executor": "Run",
-    "Application.MergeTwoSortedLists.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RemoveEvenInteger.executor": "Run",
-    "Application.Resize.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseSimplyLinkedList.executor": "Run",
-    "Application.SimplyLinkedList.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.findMinimumArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MergeTwoSortedLists">
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.leetcode.MergeTwoSortedLists" />
+}</component>
+  <component name="RunManager" selected="Application.AddTwoNumbers">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.leetcode.AddTwoNumbers" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Palindrome" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.leetcode.MergeTwoSortedLists" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="list.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSimplyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.leetcode.ReverseSimplyLinkedList" />
+    <configuration name="ReverseSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.leetcode.ReverseSinglyLinkedList" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="Application.ReverseSimplyLinkedList" />
+        <item itemvalue="Application.ReverseSinglyLinkedList" />
         <item itemvalue="Application.Resize" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723261023237</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada">
+      <option name="closed" value="true" />
+      <created>1723265479088</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723265479088</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +319,7 @@
     <MESSAGE value="Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop" />
     <MESSAGE value="Implementar funçoes para remover um loop;" />
     <MESSAGE value="Refatorar codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorar codigo" />
+    <MESSAGE value="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada" />
   </component>
 </project>

@@ -3,7 +3,7 @@ package list.leetcode;
 import list.SinglyLinkedList;
 
 //Leetcode #206
-public class ReverseSimplyLinkedList extends SinglyLinkedList {
+public class ReverseSinglyLinkedList extends SinglyLinkedList {
 
 
     public static ListNode reverse() {
@@ -26,7 +26,7 @@ public class ReverseSimplyLinkedList extends SinglyLinkedList {
 
 
     public static void main(String[] args) {
-        ReverseSimplyLinkedList sll = new ReverseSimplyLinkedList();
+        ReverseSinglyLinkedList sll = new ReverseSinglyLinkedList();
         sll.insertFirst(1);
         sll.insertFirst(2);
         sll.insertFirst(3);
