@@ -4,7 +4,6 @@ import list.SinglyLinkedList;
 
 //Leetcode #2
 public class AddTwoNumbers extends SinglyLinkedList {
-
         public static ListNode add(ListNode l1, ListNode l2) {
             ListNode dummy = new ListNode(0);
             ListNode curr = dummy;

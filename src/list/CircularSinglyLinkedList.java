@@ -47,6 +47,43 @@ public class CircularSinglyLinkedList {
 
         last = fourth;
     }
+    public void insertFirst(int value) {
+        ListNode newNode = new ListNode(value);
+        if (last == null) {
+            last = newNode;
+        } else {
+            newNode.next = last.next;
+        }
+        last.next = newNode;
+        lenght++;
+    }
+    public void insertLast(int value) {
+        ListNode newNode = new ListNode(value);
+        if (last == null) {
+            last = newNode;
+            last.next = last;
+        } else {
+            newNode.next = last.next;
+            last.next = newNode;
+            last = newNode;
+        }
+        lenght++;
+    }
+    public ListNode deleteFirst() {
+        if (last == null) {
+            return null;
+        }
+        ListNode first = last.next;
+        if (last.next == last) {
+            last = null;
+        } else {
+            last.next = first.next;
+        }
+        first.next = null;
+        lenght--;
+        return first;
+
+    }
     public static void main(String[] args) {
         CircularSinglyLinkedList cSll = new CircularSinglyLinkedList();
         cSll.createCircularLinkedList();

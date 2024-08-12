@@ -4,7 +4,6 @@ import list.SinglyLinkedList;
 
 
     public class MergeTwoSortedLists extends SinglyLinkedList {
-
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode curr = dummy;
