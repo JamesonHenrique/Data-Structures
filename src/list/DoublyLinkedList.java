@@ -61,6 +61,47 @@ public class DoublyLinkedList {
         head = newNode;
         lenght++;
     }
+    public void insertLast(int value) {
+        ListNode newNode = new ListNode(value);
+        if (isEmpty()) {
+            head = newNode;
+        } else {
+            tail.next = newNode;
+            newNode.previous = tail;
+        }
+        tail = newNode;
+        lenght++;
+    }
+    public ListNode deleteFirst() {
+        if (isEmpty()) {
+            return null;
+        }
+        ListNode temp = head;
+        if (head == tail) {
+            tail = null;
+        } else {
+            head.next.previous = null;
+        }
+        head = head.next;
+        temp.next = null;
+        lenght--;
+        return temp;
+    }
+    public ListNode deleteLast() {
+        if (isEmpty()) {
+            return null;
+        }
+        ListNode temp = tail;
+        if (head == tail) {
+            head = null;
+        } else {
+            tail.previous.next = null;
+        }
+        tail = tail.previous;
+        temp.previous = null;
+        lenght--;
+        return temp;
+    }
 
     public static void main(String[] args) {
         DoublyLinkedList dll = new DoublyLinkedList();

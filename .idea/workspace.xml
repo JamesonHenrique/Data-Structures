@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/DoublyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçoes para inserir dados no inicio de um DoublyLinkedList" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,32 +42,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.ArrayUtil.executor": "Run",
-    "Application.DoublyLinkedList.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindSecondMaxNum.executor": "Run",
-    "Application.MergeTwoSortedLists.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.RemoveEvenInteger.executor": "Run",
-    "Application.Resize.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseSimplyLinkedList.executor": "Run",
-    "Application.SimplyLinkedList.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.findMinimumArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.AddTwoNumbers">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.leetcode.AddTwoNumbers" />
       <module name="Data-Structures" />
@@ -314,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723410941176</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Implementar funçoes para inserir dados no inicio de um DoublyLinkedList">
+      <option name="closed" value="true" />
+      <created>1723432953467</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723432953467</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,6 +342,7 @@
     <MESSAGE value="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada" />
     <MESSAGE value="Implementar um Doubly" />
     <MESSAGE value="Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista." />
+    <MESSAGE value="Implementar funçoes para inserir dados no inicio de um DoublyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçoes para inserir dados no inicio de um DoublyLinkedList" />
   </component>
 </project>
