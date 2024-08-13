@@ -1,5 +1,7 @@
 package stack.list;
 
+import java.util.EmptyStackException;
+
 public class Stack {
     public ListNode top;
     public int length;
@@ -22,7 +24,12 @@ public class Stack {
     public int length() {
         return length;
     }
-
+    public int peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return top.data;
+    }
     public void push(int data) {
         ListNode newNode = new ListNode(data);
         newNode.next = top;
