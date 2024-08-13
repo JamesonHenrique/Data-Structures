@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha">
-      <change afterPath="$PROJECT_DIR$/src/stack/array/Stack.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/StringReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Data-Structures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/list/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/list/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +68,7 @@
     "Application.SimplyLinkedList.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "Application.Stack.executor": "Run",
+    "Application.StringReverse.executor": "Run",
     "Application.findMinimumArray.executor": "Run",
     "Application.stack.array.Stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -73,7 +79,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.stack.array.Stack">
+  <component name="RunManager">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.leetcode.AddTwoNumbers" />
       <module name="Data-Structures" />
@@ -373,11 +379,26 @@
       <option name="project" value="LOCAL" />
       <updated>1723519917887</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek">
+      <option name="closed" value="true" />
+      <created>1723520888501</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723520888501</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek">
+      <option name="closed" value="true" />
+      <created>1723520934504</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723520934504</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem." />
     <MESSAGE value="Remover classe desnecessaria" />
     <MESSAGE value="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array" />
     <MESSAGE value="Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades" />
@@ -402,6 +423,7 @@
     <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
     <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
     <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
+    <MESSAGE value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
   </component>
 </project>

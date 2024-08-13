@@ -18,12 +18,8 @@ public class Stack {
         this.top = null;
         this.length = 0;
     }
-    public boolean isEmpty() {
-        return top == null;
-    }
-    public int length() {
-        return length;
-    }
+    public boolean isEmpty() { return top == null; }
+    public int length() { return length; }
     public int peek() {
         if (isEmpty()) {
             throw new EmptyStackException();
