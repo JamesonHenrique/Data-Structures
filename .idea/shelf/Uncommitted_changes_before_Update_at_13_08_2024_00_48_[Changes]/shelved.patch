@@ -1,0 +1,193 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a369825f-7932-4024-aaeb-2bc577443f34\" name=\"Changes\" comment=\"Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"AnnotationType\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2jDeaWf7Zspvsz4JS7WaklPLZpP\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.AddTwoNumbers.executor\": \"Run\",\r\n    \"Application.ArrayUtil.executor\": \"Run\",\r\n    \"Application.CircularSinglyLinkedList.executor\": \"Run\",\r\n    \"Application.DoublyLinkedList.executor\": \"Run\",\r\n    \"Application.FindMissingNumber.executor\": \"Run\",\r\n    \"Application.FindSecondMaxNum.executor\": \"Run\",\r\n    \"Application.MergeTwoSortedLists.executor\": \"Run\",\r\n    \"Application.MoveZeros.executor\": \"Run\",\r\n    \"Application.Palindrome.executor\": \"Run\",\r\n    \"Application.RemoveEvenInteger.executor\": \"Run\",\r\n    \"Application.Resize.executor\": \"Run\",\r\n    \"Application.ReverseArray.executor\": \"Run\",\r\n    \"Application.ReverseSimplyLinkedList.executor\": \"Run\",\r\n    \"Application.SimplyLinkedList.executor\": \"Run\",\r\n    \"Application.SinglyLinkedList.executor\": \"Run\",\r\n    \"Application.Stack.executor\": \"Run\",\r\n    \"Application.findMinimumArray.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.Stack\">\r\n    <configuration name=\"AddTwoNumbers\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"list.leetcode.AddTwoNumbers\" />\r\n      <module name=\"Data-Structures\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"list.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CircularSinglyLinkedList\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"list.CircularSinglyLinkedList\" />\r\n      <module name=\"Data-Structures\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"list.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DoublyLinkedList\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"list.DoublyLinkedList\" />\r\n      <module name=\"Data-Structures\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"list.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MergeTwoSortedLists\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"list.leetcode.MergeTwoSortedLists\" />\r\n      <module name=\"Data-Structures\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"list.leetcode.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Stack\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stack.list.Stack\" />\r\n      <module name=\"Data-Structures\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stack.list.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Stack\" />\r\n        <item itemvalue=\"Application.CircularSinglyLinkedList\" />\r\n        <item itemvalue=\"Application.DoublyLinkedList\" />\r\n        <item itemvalue=\"Application.AddTwoNumbers\" />\r\n        <item itemvalue=\"Application.MergeTwoSortedLists\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-22-openjdk-22-3183f394aec4-bad0321e\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a369825f-7932-4024-aaeb-2bc577443f34\" name=\"Changes\" comment=\"\" />\r\n      <created>1720926139786</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1720926139786</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721093157247</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721093157247</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"&#10;Criar uma funçao para retorar o valor minimo de um array\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721102029547</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721102029547</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721107137551</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721107137551</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Remover classe desnecessaria\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721107209499</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721107209499</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721190933871</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721190933872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721710434572</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721710434572</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Criar funçao display para mostrar os elementos da lista\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721710799805</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721710799805</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1721876043473</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1721876043473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Implementar funçao para achar um elemento no linked list\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722314643352</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722314643352</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Leetcode #206: Implementar funçao para reverter um LinkedList\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722392264583</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722392264583</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723081986321</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723081986321</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723083180410</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723083180410</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Implementar funçao para deletar um no com base no valor do elemento\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723083813062</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723083813062</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723085821603</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723085821603</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Implementar funçoes para remover um loop;\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723260482463</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723260482463</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Refatorar codigo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723261023237</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723261023237</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723265479088</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723265479088</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Implementar um Doubly\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723410788794</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723410788794</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723410941176</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723410941176</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Implementar funçoes para inserir dados no inicio de um DoublyLinkedList\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723432953467</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723432953467</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"Implementar funçoes para inserir dados no final de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no inicio de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no final de um DoublyLinkedList\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723433187949</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723433187949</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"Criar um CircularSinglyLinkedList;&#10;Implementar funçoes basicas: isEmpty, Lenght e Display;\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723434724961</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723434724961</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723438068037</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723438068037</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723519508007</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723519508008</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"25\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares\" />\r\n    <MESSAGE value=\"&#10;Criar uma funçao para retorar o valor minimo de um array\" />\r\n    <MESSAGE value=\"Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem.\" />\r\n    <MESSAGE value=\"Remover classe desnecessaria\" />\r\n    <MESSAGE value=\"Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array\" />\r\n    <MESSAGE value=\"Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades\" />\r\n    <MESSAGE value=\"Criar funçao display para mostrar os elementos da lista\" />\r\n    <MESSAGE value=\"Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist\" />\r\n    <MESSAGE value=\"Implementar funçao para achar um elemento no linked list\" />\r\n    <MESSAGE value=\"Leetcode #206: Implementar funçao para reverter um LinkedList\" />\r\n    <MESSAGE value=\"Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList\" />\r\n    <MESSAGE value=\"Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao\" />\r\n    <MESSAGE value=\"Implementar funçao para deletar um no com base no valor do elemento\" />\r\n    <MESSAGE value=\"Implementar funçoes para criar um loop e verificar se ha um loop presente no LinkdedList;&#10;Implementar funçao para verificiar onde começa o loop\" />\r\n    <MESSAGE value=\"Implementar funçoes para remover um loop;\" />\r\n    <MESSAGE value=\"Refatorar codigo\" />\r\n    <MESSAGE value=\"Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada\" />\r\n    <MESSAGE value=\"Implementar um Doubly\" />\r\n    <MESSAGE value=\"Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista.\" />\r\n    <MESSAGE value=\"Implementar funçoes para inserir dados no inicio de um DoublyLinkedList\" />\r\n    <MESSAGE value=\"Implementar funçoes para inserir dados no final de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no inicio de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no final de um DoublyLinkedList\" />\r\n    <MESSAGE value=\"Criar um CircularSinglyLinkedList;&#10;Implementar funçoes basicas: isEmpty, Lenght e Display;\" />\r\n    <MESSAGE value=\"Implementar funçoes no CircularSinglyLinkedList:\" />\r\n    <MESSAGE value=\"Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;\" />\r\n    <MESSAGE value=\"Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 550d860490e4664b8ee2f8015634a2fa44caa5eb)
++++ b/.idea/workspace.xml	(date 1723520649495)
+@@ -4,7 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
++    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha">
++      <change afterPath="$PROJECT_DIR$/src/stack/array/Stack.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -61,6 +64,7 @@
+     "Application.SinglyLinkedList.executor": "Run",
+     "Application.Stack.executor": "Run",
+     "Application.findMinimumArray.executor": "Run",
++    "Application.stack.array.Stack.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+@@ -69,7 +73,7 @@
+     "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="Application.Stack">
++  <component name="RunManager" selected="Application.stack.array.Stack">
+     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="list.leetcode.AddTwoNumbers" />
+       <module name="Data-Structures" />
+@@ -109,12 +113,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="list.leetcode.MergeTwoSortedLists" />
++    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="stack.list.Stack" />
+       <module name="Data-Structures" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="list.leetcode.*" />
++          <option name="PATTERN" value="stack.list.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -122,12 +126,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="stack.list.Stack" />
++    <configuration name="stack.array.Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="stack.array.Stack" />
+       <module name="Data-Structures" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="stack.list.*" />
++          <option name="PATTERN" value="stack.array.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -137,11 +141,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.stack.array.Stack" />
+         <item itemvalue="Application.Stack" />
+         <item itemvalue="Application.CircularSinglyLinkedList" />
+         <item itemvalue="Application.DoublyLinkedList" />
+         <item itemvalue="Application.AddTwoNumbers" />
+-        <item itemvalue="Application.MergeTwoSortedLists" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -353,12 +357,26 @@
+       <option name="project" value="LOCAL" />
+       <updated>1723519508008</updated>
+     </task>
+-    <option name="localTasksCounter" value="25" />
++    <task id="LOCAL-00025" summary="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack">
++      <option name="closed" value="true" />
++      <created>1723519802306</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1723519802306</updated>
++    </task>
++    <task id="LOCAL-00026" summary="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha">
++      <option name="closed" value="true" />
++      <created>1723519917887</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1723519917887</updated>
++    </task>
++    <option name="localTasksCounter" value="27" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares" />
+-    <MESSAGE value="&#10;Criar uma funçao para retorar o valor minimo de um array" />
+     <MESSAGE value="Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem." />
+     <MESSAGE value="Remover classe desnecessaria" />
+     <MESSAGE value="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array" />
+@@ -382,6 +400,8 @@
+     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:" />
+     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;" />
+     <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
++    <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
++    <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
++    <option name="LAST_COMMIT_MESSAGE" value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/stack/array/Stack.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/stack/array/Stack.java b/src/stack/array/Stack.java
+new file mode 100644
+--- /dev/null	(date 1723520886647)
++++ b/src/stack/array/Stack.java	(date 1723520886647)
+@@ -0,0 +1,58 @@
++package stack.array;
++
++public class Stack {
++   public int top;
++    public int[] array;
++    public Stack(int capacity) {
++        array = new int[capacity];
++        this.top = -1;
++    }
++    public void push(int data) {
++        if (isFull()) {
++          throw new StackOverflowError("Stack is full");
++        }
++        array[++top] = data;
++    }
++    public boolean isFull() {
++        return array.length == size();
++    }
++    public int size() {
++        return top + 1;
++    }
++    public boolean isEmpty() {
++        return top == -1;
++    }
++    public int pop() {
++        if (isEmpty()) {
++            throw new StackOverflowError("Stack is empty");
++        }
++        return array[top--];
++    }
++    public int peek() {
++        if (isEmpty()) {
++            throw new StackOverflowError("Stack is empty");
++        }
++        return array[top];
++    }
++    public void display() {
++        for (int i = 0; i <= top; i++) {
++            System.out.print(array[i] + " --> ");
++        }
++        System.out.println();
++    }
++    public static void main(String[] args) {
++
++        Stack stack = new Stack(5);
++        stack.push(1);
++        stack.push(2);
++        stack.push(3);
++        stack.push(4);
++        stack.push(5);
++        // -stack.push(6);
++        stack.display();
++        stack.pop();
++        stack.pop();
++        stack.display();
++        System.out.println(stack.peek());
++    }
++}

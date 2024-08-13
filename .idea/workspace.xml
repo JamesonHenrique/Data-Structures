@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha">
+      <change afterPath="$PROJECT_DIR$/src/stack/array/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +64,7 @@
     "Application.SinglyLinkedList.executor": "Run",
     "Application.Stack.executor": "Run",
     "Application.findMinimumArray.executor": "Run",
+    "Application.stack.array.Stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,7 +73,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Stack">
+  <component name="RunManager" selected="Application.stack.array.Stack">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.leetcode.AddTwoNumbers" />
       <module name="Data-Structures" />
@@ -109,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.leetcode.MergeTwoSortedLists" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.list.Stack" />
       <module name="Data-Structures" />
@@ -135,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stack.array.Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.array.Stack" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stack.array.Stack" />
         <item itemvalue="Application.Stack" />
         <item itemvalue="Application.CircularSinglyLinkedList" />
         <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.MergeTwoSortedLists" />
       </list>
     </recent_temporary>
   </component>
@@ -353,12 +357,26 @@
       <option name="project" value="LOCAL" />
       <updated>1723519508008</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack">
+      <option name="closed" value="true" />
+      <created>1723519802306</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723519802306</updated>
+    </task>
+    <task id="LOCAL-00026" summary="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha">
+      <option name="closed" value="true" />
+      <created>1723519917887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723519917887</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares" />
-    <MESSAGE value="&#10;Criar uma funçao para retorar o valor minimo de um array" />
     <MESSAGE value="Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem." />
     <MESSAGE value="Remover classe desnecessaria" />
     <MESSAGE value="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array" />
@@ -382,6 +400,8 @@
     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:" />
     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;" />
     <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
+    <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
+    <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
   </component>
 </project>
