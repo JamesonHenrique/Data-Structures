@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Testar funçoes do Queue">
+      <change afterPath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
   "keyToString": {
     "Application.AddTwoNumbers.executor": "Run",
     "Application.ArrayUtil.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
     "Application.CircularSinglyLinkedList.executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
@@ -71,18 +72,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Queue">
-    <configuration name="CircularSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.CircularSinglyLinkedList" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binarytree.BinaryTree" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Queue" />
         <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.stack.array.Stack" />
         <item itemvalue="Application.Stack" />
-        <item itemvalue="Application.CircularSinglyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723598899769</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Testar funçoes do Queue">
+      <option name="closed" value="true" />
+      <created>1723601144499</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723601144499</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
