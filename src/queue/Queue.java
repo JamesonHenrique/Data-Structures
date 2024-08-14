@@ -15,16 +15,6 @@ public class Queue {
             this.next = null;
         }
     }
-    public Queue() {
-        front = null;
-        rear = null;
-    }
-    public boolean isEmpty() {
-        return front == null;
-    }
-    public int lenght() {
-        return lenght;
-    }
     public void enqueue(int data) {
         ListNode newNode = new ListNode(data);
         if (isEmpty()) {
@@ -34,7 +24,6 @@ public class Queue {
         }
         rear = newNode;
         lenght++;
-
     }
     public int dequeue() {
         if (isEmpty()) {
@@ -48,6 +37,16 @@ public class Queue {
         lenght--;
         return result;
     }
+    public Queue() {
+        front = null;
+        rear = null;
+    }
+    public boolean isEmpty() {
+        return front == null;
+    }
+    public int lenght() {
+        return lenght;
+    }
     public void display() {
         ListNode current = front;
         while (current != null) {
@@ -57,21 +56,17 @@ public class Queue {
         System.out.print("null");
         System.out.println();
     }
+
     public static void main(String[] args) {
         Queue queue = new Queue();
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
-        queue.enqueue(4);
+        System.out.println("Queue length: " + queue.lenght());
         queue.display();
-        queue.dequeue();
+        System.out.println("Dequeue: " + queue.dequeue());
         queue.display();
-        queue.dequeue();
-        queue.display();
-        queue.dequeue();
-
-        queue.dequeue();
-
+        System.out.println("Queue length: " + queue.lenght());
     }
 
 }
