@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Desafio: Implementar um metodo para reverter strings com Stack do java">
-      <change afterPath="$PROJECT_DIR$/src/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StringReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/StringReverse.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Queue e implementar funçoes basicas">
+      <change beforePath="$PROJECT_DIR$/src/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1723522020033</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Criar Queue e implementar funçoes basicas">
+      <option name="closed" value="true" />
+      <created>1723597953081</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723597953081</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array" />
     <MESSAGE value="Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades" />
     <MESSAGE value="Criar funçao display para mostrar os elementos da lista" />
     <MESSAGE value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
@@ -429,6 +434,7 @@
     <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
     <MESSAGE value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
     <MESSAGE value="Desafio: Implementar um metodo para reverter strings com Stack do java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio: Implementar um metodo para reverter strings com Stack do java" />
+    <MESSAGE value="Criar Queue e implementar funçoes basicas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar Queue e implementar funçoes basicas" />
   </component>
 </project>

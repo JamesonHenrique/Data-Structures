@@ -25,13 +25,52 @@ public class Queue {
     public int lenght() {
         return lenght;
     }
-    public int peek() {
+    public void enqueue(int data) {
+        ListNode newNode = new ListNode(data);
+        if (isEmpty()) {
+            front = newNode;
+        } else {
+            rear.next = newNode;
+        }
+        rear = newNode;
+        lenght++;
+
+    }
+    public int dequeue() {
         if (isEmpty()) {
             throw new NoSuchElementException("Queue is empty");
         }
-        return front.data;
+        int result = front.data;
+        front = front.next;
+        if (front == null) {
+            rear = null;
+        }
+        lenght--;
+        return result;
+    }
+    public void display() {
+        ListNode current = front;
+        while (current != null) {
+            System.out.print(current.data + " --> ");
+            current = current.next;
+        }
+        System.out.print("null");
+        System.out.println();
     }
     public static void main(String[] args) {
+        Queue queue = new Queue();
+        queue.enqueue(1);
+        queue.enqueue(2);
+        queue.enqueue(3);
+        queue.enqueue(4);
+        queue.display();
+        queue.dequeue();
+        queue.display();
+        queue.dequeue();
+        queue.display();
+        queue.dequeue();
+
+        queue.dequeue();
 
     }
 
