@@ -21,6 +21,7 @@ public class StringReverse {
 
     public static void main(String[] args) {
         String str = "Jameson";
-        System.out.println(reverse(str));
+        System.out.println("Original String: " + str);
+        System.out.println("Reverse: " + reverse(str));
     }
 }
