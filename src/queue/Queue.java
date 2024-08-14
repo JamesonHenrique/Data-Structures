@@ -25,6 +25,29 @@ public class Queue {
     public int lenght() {
         return lenght;
     }
+    public void enqueue(int data) {
+        ListNode newNode = new ListNode(data);
+        if (isEmpty()) {
+            front = newNode;
+        } else {
+            rear.next = newNode;
+        }
+        rear = newNode;
+        lenght++;
+
+    }
+    public int dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue is empty");
+        }
+        int result = front.data;
+        front = front.next;
+        if (front == null) {
+            rear = null;
+        }
+        lenght--;
+        return result;
+    }
     public int peek() {
         if (isEmpty()) {
             throw new NoSuchElementException("Queue is empty");
