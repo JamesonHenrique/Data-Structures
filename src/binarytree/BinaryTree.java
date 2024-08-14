@@ -1,5 +1,7 @@
 package binarytree;
 
+import java.util.Stack;
+
 public class BinaryTree {
     TreeNode root;
 
@@ -37,12 +39,30 @@ public class BinaryTree {
         preOrder(root.left);
         preOrder(root.right);
     }
-
+    public void interativePreOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode temp = stack.pop();
+            System.out.print(temp.data + " ");
+            if (temp.right != null) {
+                stack.push(temp.right);
+            }
+            if (temp.left != null) {
+                stack.push(temp.left);
+            }
+        }
+    }
 
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
         binaryTree.createSampleTree();
         binaryTree.preOrder(binaryTree.root);
+        System.out.println("");
+        binaryTree.interativePreOrder(binaryTree.root);
 
     }
 }

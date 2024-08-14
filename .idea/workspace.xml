@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Testar funçoes do Queue">
-      <change afterPath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;">
+      <change beforePath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1723601144499</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;">
+      <option name="closed" value="true" />
+      <created>1723602861098</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723602861098</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist" />
     <MESSAGE value="Implementar funçao para achar um elemento no linked list" />
     <MESSAGE value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
     <MESSAGE value="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList" />
@@ -462,6 +468,7 @@
     <MESSAGE value="Criar Queue e implementar funçoes basicas" />
     <MESSAGE value="Implementar funçoes para adicionar elementos na Fila e remover(enqueue/dequeue)" />
     <MESSAGE value="Testar funçoes do Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testar funçoes do Queue" />
+    <MESSAGE value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
   </component>
 </project>
