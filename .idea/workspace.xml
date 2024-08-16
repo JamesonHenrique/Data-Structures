@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao preOrder interativa;">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binarytree/BinaryTree.java" afterDir="false" />
     </list>
@@ -449,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1723603393762</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa">
+      <option name="closed" value="true" />
+      <created>1723781153057</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723781153057</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Leetcode #206: Implementar funçao para reverter um LinkedList" />
     <MESSAGE value="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList" />
     <MESSAGE value="Implementar funçao para inserir um elemento, mas que nao mude a ordenaçao" />
     <MESSAGE value="Implementar funçao para deletar um no com base no valor do elemento" />
@@ -478,6 +485,7 @@
     <MESSAGE value="Testar funçoes do Queue" />
     <MESSAGE value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
     <MESSAGE value="Implementar funçao preOrder interativa;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao preOrder interativa;" />
+    <MESSAGE value="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa" />
   </component>
 </project>

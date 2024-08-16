@@ -1,5 +1,7 @@
 package binarytree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinaryTree {
@@ -120,7 +122,60 @@ public class BinaryTree {
         }
 
     }
+    public void levelOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(node);
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            System.out.print(temp.data + " ");
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+            if (temp.right != null) {
+                queue.offer(temp.right);
+            }
+        }
+    }
+    public void maximumValue() {
+        if (root == null) {
+            return;
+        }
+       Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int max = Integer.MIN_VALUE;
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            if (temp.data > max) {
+                max = temp.data;
+            }
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+            if (temp.right != null) {
+                queue.offer(temp.right);
+            }
+        }
+        System.out.println("Maximum value in the tree is: " + max);
+    }
+    public int recursiveMaximumValue(TreeNode root) {
+        if (root == null) {
+            return Integer.MIN_VALUE;
+        }
+int result = root.data;
+int left = recursiveMaximumValue(root.left);
+int right = recursiveMaximumValue(root.right);
+if (left > result) {
+    result = left;
 
+}
+if (right > result) {
+    result = right;
+}
+return result;
+    }
 
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
@@ -131,13 +186,17 @@ public class BinaryTree {
         System.out.println("");
         binaryTree.inOrder(binaryTree.root);
         System.out.println("");
-
         binaryTree.interativeInOrder(binaryTree.root);
         System.out.println("");
         binaryTree.postOrder(binaryTree.root);
         System.out.println("");
-
         binaryTree.interativePostOrder(binaryTree.root);
+        System.out.println("");
+        binaryTree.levelOrder(binaryTree.root);
+        System.out.println("");
+        binaryTree.maximumValue();
+
+        System.out.println(binaryTree.recursiveMaximumValue(binaryTree.root));
 
     }
 }
