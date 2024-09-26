@@ -12,10 +12,10 @@ public class BinaryTree {
         TreeNode left;
         TreeNode right;
 
-        public TreeNode(int data) {
-            this.data = data;
-        }
+    public TreeNode(int data) {
+        this.data = data;
     }
+}
     public BinaryTree() {
         root = null;
     }
