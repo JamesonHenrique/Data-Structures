@@ -27,38 +27,38 @@ public class BinaryTreeSearch {
         }
         return root;
     }
-    public void inOrder(TreeNode left, TreeNode right) {
-        if (left == null) {
+    public void inOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
-        inOrder(left.left, right);
-        System.out.print(left.data + " ");
-        inOrder(left.right, right);
+        inOrder(root.left);
+        System.out.print(root.data + " ");
+        inOrder(root.right);
+    }
+    public void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.data + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+    public void postOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.data + " ");
     }
     public void inOrder() {
-        inOrder(root, root);
-    }
-    public void preOrder(TreeNode left, TreeNode right) {
-        if (left == null) {
-            return;
-        }
-        System.out.print(left.data + " ");
-        preOrder(left.left, right);
-        preOrder(left.right, right);
+        inOrder(root);
     }
     public void preOrder() {
-        preOrder(root, root);
-    }
-    public void postOrder(TreeNode left, TreeNode right) {
-        if (left == null) {
-            return;
-        }
-        postOrder(left.left, right);
-        postOrder(left.right, right);
-        System.out.print(left.data + " ");
+        preOrder(root);
     }
     public void postOrder() {
-        postOrder(root, root);
+        postOrder(root);
     }
     public void display() {
         display(root, 0);
