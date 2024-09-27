@@ -60,6 +60,23 @@ public class BinaryTreeSearch {
     public void postOrder() {
         postOrder(root);
     }
+    public boolean search(int data) {
+        return search(root, data);
+    }
+    private boolean search(TreeNode root, int data) {
+        if (root == null) {
+            return false;
+        }
+        if (root.data == data) {
+            return true;
+
+        } else if (data < root.data) {
+            return search(root.left, data);
+        } else {
+            return search(root.right, data);
+        }
+    }
+
     public void display() {
         display(root, 0);
     }
@@ -85,6 +102,8 @@ public class BinaryTreeSearch {
         bst.insert(8);
         bst.insert(11);
         bst.insert(18);
-        bst.display();
+        System.out.println(bst.search(2));
+        bst.inOrder();
+
     }
 }
