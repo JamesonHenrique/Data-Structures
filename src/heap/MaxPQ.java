@@ -50,9 +50,7 @@ public class MaxPQ {
             if (heap[i] >= heap[j]) {
                 break;
             }
-            int temp = heap[i];
-            heap[i] = heap[j];
-            heap[j] = temp;
+            swap(i, j);
             i = j;
         }
     }
@@ -62,8 +60,7 @@ public class MaxPQ {
             int temp = heap[k];
             heap[k] = heap[k / 2];
             heap[k / 2] = temp;
-            k = k / 2; // bcoz we need to continue shifting up till
-            // new value inserted is at correct position
+            k = k / 2;
         }
     }
 
