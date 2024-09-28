@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Binary Heaps. Implementar funçoes de um max heap. Implementar metodo de inserir valores num max heap">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar codigo da class MaxPQ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/MaxHP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/MaxPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/MaxPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap/MaxPQ.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.FindMissingNumber.executor": "Run",
     "Application.FindSecondMaxNum.executor": "Run",
     "Application.MaxHP.executor": "Run",
+    "Application.MaxPQ.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MoveZeros.executor": "Run",
     "Application.Palindrome.executor": "Run",
@@ -491,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727405854092</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Refatorar codigo da class MaxPQ">
+      <option name="closed" value="true" />
+      <created>1727406839788</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1727406839788</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refatorar codigo" />
     <MESSAGE value="Leetcode #21: Implementar uma funçao para juntar duas listas de forma ordenada" />
     <MESSAGE value="Implementar um Doubly" />
     <MESSAGE value="Implementar um DoublyLinkedList*:&#10;Implementar funç0es para verificar se esta vazio e o tamanho da lista." />
@@ -520,6 +528,7 @@
     <MESSAGE value="Implementar metodos: InOrder,PreOrder,PostOrder" />
     <MESSAGE value="Refatorar metodos: InOrder,PreOrder,PostOrder" />
     <MESSAGE value="Criar Binary Heaps. Implementar funçoes de um max heap. Implementar metodo de inserir valores num max heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar Binary Heaps. Implementar funçoes de um max heap. Implementar metodo de inserir valores num max heap" />
+    <MESSAGE value="Refatorar codigo da class MaxPQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorar codigo da class MaxPQ" />
   </component>
 </project>

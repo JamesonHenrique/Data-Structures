@@ -25,6 +25,37 @@ public class MaxPQ {
         heap[n] = x;
         swim(n);
     }
+    public int deleteMax() {
+        int max = heap[1];
+        swap(1, n);
+        n--;
+        sink(1);
+        heap[n + 1] = null;
+        if (n > 0 && n == (heap.length - 1) / 4) {
+            resize(heap.length / 2);
+        }
+        return max;
+    }
+    public void swap(int i, int j) {
+        int temp = heap[i];
+        heap[i] = heap[j];
+        heap[j] = temp;
+    }
+    private void sink(int i) {
+        while (2 * i <= n) {
+            int j = 2 * i;
+            if (j < n && heap[j] < heap[j + 1]) {
+                j++;
+            }
+            if (heap[i] >= heap[j]) {
+                break;
+            }
+            int temp = heap[i];
+            heap[i] = heap[j];
+            heap[j] = temp;
+            i = j;
+        }
+    }
 
     private void swim(int k) {
         while (k > 1 && heap[k / 2] < heap[k]) {
@@ -59,6 +90,10 @@ public class MaxPQ {
         maxHeap.insert(1);
         maxHeap.insert(2);
         maxHeap.insert(4);
+
+        maxHeap.printMaxHeap();
+        System.out.println("\n" + maxHeap.deleteMax());
+        System.out.println();
         maxHeap.printMaxHeap();
     }
 }
