@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Classe BinaryS&#10;; Implementar funçao search.">
-      <change afterPath="$PROJECT_DIR$/src/sorting/BubbleSort.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array">
+      <change afterPath="$PROJECT_DIR$/src/sorting/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,43 +46,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTreeSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularSinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSeach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxHP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxPQ.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringReverse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.stack.array.Stack.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddTwoNumbers.executor": "Run",
+    "Application.ArrayUtil.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BinaryTree.executor": "Run",
+    "Application.BinaryTreeSearch.executor": "Run",
+    "Application.CircularSinglyLinkedList.executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.FindSecondMaxNum.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
+    "Application.LinearSeach.executor": "Run",
+    "Application.MaxHP.executor": "Run",
+    "Application.MaxPQ.executor": "Run",
+    "Application.MergeTwoSortedLists.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.Queue.executor": "Run",
+    "Application.RemoveEvenInteger.executor": "Run",
+    "Application.Resize.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.ReverseSimplyLinkedList.executor": "Run",
+    "Application.SimplyLinkedList.executor": "Run",
+    "Application.SinglyLinkedList.executor": "Run",
+    "Application.Stack.executor": "Run",
+    "Application.StringReverse.executor": "Run",
+    "Application.findMinimumArray.executor": "Run",
+    "Application.stack.array.Stack.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.BinarySearch">
+}]]></component>
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="Data-Structures" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binarytree.BinaryTreeSearch" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.InsertionSort" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binarytree.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinearSeach" />
         <item itemvalue="Application.MaxPQ" />
         <item itemvalue="Application.MaxHP" />
-        <item itemvalue="Application.BinaryTreeSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -534,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727496993535</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array">
+      <option name="closed" value="true" />
+      <created>1727661174572</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727661174572</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementar funçoes para inserir dados no inicio de um DoublyLinkedList" />
     <MESSAGE value="Implementar funçoes para inserir dados no final de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no inicio de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no final de um DoublyLinkedList" />
     <MESSAGE value="Criar um CircularSinglyLinkedList;&#10;Implementar funçoes basicas: isEmpty, Lenght e Display;" />
     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:" />
@@ -563,6 +571,7 @@
     <MESSAGE value="Implementar metodo para deletar um elemento de um max heap" />
     <MESSAGE value="Criar Classe para busca linear em arrays; Implementar funçao search." />
     <MESSAGE value="Criar Classe BinaryS&#10;; Implementar funçao search." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar Classe BinaryS&#10;; Implementar funçao search." />
+    <MESSAGE value="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array" />
   </component>
 </project>
