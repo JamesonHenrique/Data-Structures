@@ -2,11 +2,12 @@ package sorting;
 
 public class InsertionSort {
         public static void sort(int[] arr) {
+            int n = arr.length;
 
-            if (arr == null || arr.length == 0) {
+            if (arr == null || n == 0) {
                 throw new IllegalArgumentException("Invalid input");
             }
-            for (int i = 1; i < arr.length; i++) {
+            for (int i = 1; i < n; i++) {
                 int temp = arr[i];
                 int j = i - 1;
                 while (j >= 0 && arr[j] > temp) {
