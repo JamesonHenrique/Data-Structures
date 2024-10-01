@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array">
-      <change afterPath="$PROJECT_DIR$/src/sorting/InsertionSort.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;">
+      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.LinearSeach.executor": "Run",
     "Application.MaxHP.executor": "Run",
     "Application.MaxPQ.executor": "Run",
+    "Application.MergeSortedArrays.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MoveZeros.executor": "Run",
     "Application.Palindrome.executor": "Run",
@@ -74,6 +75,7 @@
     "Application.Stack.executor": "Run",
     "Application.StringReverse.executor": "Run",
     "Application.findMinimumArray.executor": "Run",
+    "Application.sorting.InsertionSort.executor": "Run",
     "Application.stack.array.Stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +85,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.sorting.InsertionSort">
+  <component name="RunManager" selected="Application.MergeSortedArrays">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="Data-Structures" />
@@ -123,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.MaxPQ" />
+    <configuration name="MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.MergeSortedArrays" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.sorting.InsertionSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinearSeach" />
-        <item itemvalue="Application.MaxPQ" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +545,34 @@
       <option name="project" value="LOCAL" />
       <updated>1727661174572</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Criar Classe InsertionSort&#10; Implementar funçao para ordenar;">
+      <option name="closed" value="true" />
+      <created>1727669823184</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1727669823184</updated>
+    </task>
+    <task id="LOCAL-00048" summary="&#10; Implementar funçao para mostrar os valores do array ;">
+      <option name="closed" value="true" />
+      <created>1727669901381</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1727669901381</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;">
+      <option name="closed" value="true" />
+      <created>1727670092667</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1727670092667</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementar funçoes para inserir dados no final de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no inicio de um DoublyLinkedList;&#10;Implementar funçao para deletar um dado no final de um DoublyLinkedList" />
-    <MESSAGE value="Criar um CircularSinglyLinkedList;&#10;Implementar funçoes basicas: isEmpty, Lenght e Display;" />
-    <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:" />
     <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;" />
     <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
     <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
@@ -572,6 +595,9 @@
     <MESSAGE value="Criar Classe para busca linear em arrays; Implementar funçao search." />
     <MESSAGE value="Criar Classe BinaryS&#10;; Implementar funçao search." />
     <MESSAGE value="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar Classe BubbleSo&#10; Implementar funçao para ordenar; implementar funçao para mostrar o array" />
+    <MESSAGE value="Criar Classe InsertionSort&#10; Implementar funçao para ordenar;" />
+    <MESSAGE value="&#10; Implementar funçao para mostrar os valores do array ;" />
+    <MESSAGE value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
   </component>
 </project>
