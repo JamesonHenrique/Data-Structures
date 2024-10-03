@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;">
-      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSortedArrays.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados">
+      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Application.LinearSeach.executor": "Run",
     "Application.MaxHP.executor": "Run",
     "Application.MaxPQ.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MergeSortedArrays.executor": "Run",
     "Application.MergeTwoSortedLists.executor": "Run",
     "Application.MoveZeros.executor": "Run",
@@ -85,7 +86,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArrays">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="Data-Structures" />
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.LinearSeach" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.MergeSort" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.sorting.InsertionSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LinearSeach" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Iniciar estudos em estruturas de dados e algoritmos.&#10;Criar um array que remove pares">
-      <option name="closed" value="true" />
-      <created>1721093157247</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1721093157247</updated>
     </task>
     <task id="LOCAL-00002" summary="&#10;Criar uma funçao para retorar o valor minimo de um array">
       <option name="closed" value="true" />
@@ -569,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727670092667</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados">
+      <option name="closed" value="true" />
+      <created>1727748732855</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1727748732856</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementar funçoes no CircularSinglyLinkedList:&#10;inserir dados no inicio;&#10;inserir dados no final;&#10;deletar dados no inicio;" />
     <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
     <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
     <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
@@ -598,6 +598,7 @@
     <MESSAGE value="Criar Classe InsertionSort&#10; Implementar funçao para ordenar;" />
     <MESSAGE value="&#10; Implementar funçao para mostrar os valores do array ;" />
     <MESSAGE value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
+    <MESSAGE value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
   </component>
 </project>
