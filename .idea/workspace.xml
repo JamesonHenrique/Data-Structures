@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados">
-      <change afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe MergeSort; Implementar funçao para ordenar o array;">
+      <change afterPath="$PROJECT_DIR$/src/sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +67,7 @@
     "Application.MoveZeros.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Queue.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.RemoveEvenInteger.executor": "Run",
     "Application.Resize.executor": "Run",
     "Application.ReverseArray.executor": "Run",
@@ -83,23 +84,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.InsertionSort" />
       <module name="Data-Structures" />
@@ -139,6 +127,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.QuickSort" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sorting.InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.InsertionSort" />
       <module name="Data-Structures" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.sorting.InsertionSort" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00002" summary="&#10;Criar uma funçao para retorar o valor minimo de um array">
-      <option name="closed" value="true" />
-      <created>1721102029547</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1721102029547</updated>
     </task>
     <task id="LOCAL-00003" summary="Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem.">
       <option name="closed" value="true" />
@@ -570,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727748732856</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Criar classe MergeSort; Implementar funçao para ordenar o array;">
+      <option name="closed" value="true" />
+      <created>1727926836634</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1727926836635</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criar uma pilha com Linked List;&#10;Implementar funçoes basicas: Push, Pop, Display" />
     <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
     <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
     <MESSAGE value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
@@ -599,6 +599,7 @@
     <MESSAGE value="&#10; Implementar funçao para mostrar os valores do array ;" />
     <MESSAGE value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
     <MESSAGE value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
+    <MESSAGE value="Criar classe MergeSort; Implementar funçao para ordenar o array;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar classe MergeSort; Implementar funçao para ordenar o array;" />
   </component>
 </project>
