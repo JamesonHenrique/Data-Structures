@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar codigo do Graph; Adicionar variaveis V de vertices e E de arestas e implementar nas funçoes;">
-      <change afterPath="$PROJECT_DIR$/src/graph/ListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/MatrixGraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Iniciar estudos de linkedList;&#10;Criar LinkedList e implementar funcibilidades">
-      <option name="closed" value="true" />
-      <created>1721710434572</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1721710434572</updated>
     </task>
     <task id="LOCAL-00007" summary="Criar funçao display para mostrar os elementos da lista">
       <option name="closed" value="true" />
@@ -573,11 +562,18 @@
       <option name="project" value="LOCAL" />
       <updated>1728101237582</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;">
+      <option name="closed" value="true" />
+      <created>1728101720236</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1728101720236</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Desafio: Implementar um metodo para reverter strings com Stack do java" />
     <MESSAGE value="Criar Queue e implementar funçoes basicas" />
     <MESSAGE value="Implementar funçoes para adicionar elementos na Fila e remover(enqueue/dequeue)" />
     <MESSAGE value="Testar funçoes do Queue" />
@@ -602,6 +598,7 @@
     <MESSAGE value="Criar classe QuickSort; Implementar funçao para ordenar o array;" />
     <MESSAGE value="Criar classe Graph; Implementar funçao variaveis, Construtor, funçao para adicionar arestas e printar na tela os valores do grafo;" />
     <MESSAGE value="Refatorar codigo do Graph; Adicionar variaveis V de vertices e E de arestas e implementar nas funçoes;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorar codigo do Graph; Adicionar variaveis V de vertices e E de arestas e implementar nas funçoes;" />
+    <MESSAGE value="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;" />
   </component>
 </project>

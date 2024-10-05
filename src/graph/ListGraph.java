@@ -1,40 +1,33 @@
 package graph;
 
+import java.util.LinkedList;
+
 public class ListGraph {
     private int V;
     private int E;
-    private Node[] adjList;
-    private class Node {
-        private int vertex;
-        private Node next;
+    private LinkedList[] adjList;
 
-        public Node(int vertex, Node next) {
-            this.vertex = vertex;
-            this.next = next;
-        }
-    }
 
     public ListGraph(int nodes) {
         this.V = nodes;
         this.E = 0;
-        this.adjList = new Node[nodes];
+        this.adjList = new LinkedList[nodes];
+        for (int i = 0; i < nodes; i++) {
+            this.adjList[i] = new LinkedList<>();
+        }
     }
 
     public void addEdge(int i, int j) {
-        Node node = new Node(j, adjList[i]);
-        adjList[i] = node;
-        node = new Node(i, adjList[j]);
-        adjList[j] = node;
+        adjList[i].add(j);
+        adjList[j].add(i);
         E++;
     }
 
     public void printGraph() {
-        for (int i = 0; i < adjList.length; i++) {
-            Node temp = adjList[i];
-            System.out.print("Vertex " + i + " is connected to: ");
-            while (temp != null) {
-                System.out.print(temp.vertex + " ");
-                temp = temp.next;
+        for (int i = 0; i < V; i++) {
+            System.out.print(i + "=>");
+            for (Object node : adjList[i]) {
+                System.out.print(node + " ");
             }
             System.out.println();
         }
