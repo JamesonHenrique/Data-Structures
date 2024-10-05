@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe MergeSort; Implementar funçao para ordenar o array;">
-      <change afterPath="$PROJECT_DIR$/src/sorting/QuickSort.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe QuickSort; Implementar funçao para ordenar o array;">
+      <change afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.DoublyLinkedList.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
     "Application.FindSecondMaxNum.executor": "Run",
+    "Application.Graph.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.LinearSeach.executor": "Run",
     "Application.MaxHP.executor": "Run",
@@ -87,13 +88,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.InsertionSort" />
+  <component name="RunManager" selected="Application.Graph">
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.Graph" />
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.MaxPQ" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,26 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sorting.InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.InsertionSort" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.MaxPQ" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MergeSortedArrays" />
-        <item itemvalue="Application.sorting.InsertionSort" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -178,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Criar uma funçao de retornar o segundo valor maximo.&#10;Criar uma funçao para mover os numeros 0 sempre para o final do array, sem alterar a ordem.">
-      <option name="closed" value="true" />
-      <created>1721107137551</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1721107137551</updated>
     </task>
     <task id="LOCAL-00004" summary="Remover classe desnecessaria">
       <option name="closed" value="true" />
@@ -571,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1727926836635</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Criar classe QuickSort; Implementar funçao para ordenar o array;">
+      <option name="closed" value="true" />
+      <created>1728009258162</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1728009258162</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Implementar funçoes basicas: isEmpty e lenght de um Stack" />
     <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
     <MESSAGE value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
     <MESSAGE value="Desafio: Implementar um metodo para reverter strings com Stack do java" />
@@ -600,6 +600,22 @@
     <MESSAGE value="Refatorar insertionSort; Criar Classe SelectionSort; Implementar funçao para ordenar o array; Implementar funçao para mostrar os dados do array;" />
     <MESSAGE value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
     <MESSAGE value="Criar classe MergeSort; Implementar funçao para ordenar o array;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar classe MergeSort; Implementar funçao para ordenar o array;" />
+    <MESSAGE value="Criar classe QuickSort; Implementar funçao para ordenar o array;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar classe QuickSort; Implementar funçao para ordenar o array;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/graph/Graph.java</url>
+          <line>19</line>
+          <properties class="graph.Graph" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
