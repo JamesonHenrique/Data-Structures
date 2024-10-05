@@ -1,13 +1,19 @@
 package graph;
 
 public class Graph {
-    static int[][] adjMatrix;
+    private int E;
+    private int V;
+    private int[][] adjMatrix;
     public Graph(int nodes) {
+        this.V = nodes;
+        this.E = 0;
         this.adjMatrix= new int[nodes][nodes];
+
     }
     public void addEdge(int i, int j) {
         adjMatrix[i][j] = 1;
         adjMatrix[j][i] = 1;
+        E++;
     }
     public void printGraph() {
         for (int i = 0; i < adjMatrix.length; i++) {

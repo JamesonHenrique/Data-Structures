@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe QuickSort; Implementar funçao para ordenar o array;">
-      <change afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Criar classe Graph; Implementar funçao variaveis, Construtor, funçao para adicionar arestas e printar na tela os valores do grafo;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,14 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Remover classe desnecessaria">
-      <option name="closed" value="true" />
-      <created>1721107209499</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1721107209499</updated>
     </task>
     <task id="LOCAL-00005" summary="Criar funçoes;&#10;Como achar o numero que falta no array;&#10;Se a palavra é um palindromo;&#10;Mudar o tamanho do array">
       <option name="closed" value="true" />
@@ -572,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1728009258162</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Criar classe Graph; Implementar funçao variaveis, Construtor, funçao para adicionar arestas e printar na tela os valores do grafo;">
+      <option name="closed" value="true" />
+      <created>1728100631938</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1728100631938</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;Implementar funçoes peek, que retorna o ultimo no adicionado na pilha" />
     <MESSAGE value="Criar Stack utilizando arrays;&#10;Implementar funçoes basicas: Pop, push, size, isFull. isEmpty, display, Peek" />
     <MESSAGE value="Desafio: Implementar um metodo para reverter strings com Stack do java" />
     <MESSAGE value="Criar Queue e implementar funçoes basicas" />
@@ -601,21 +600,7 @@
     <MESSAGE value="Criar classe MergeSortedArrays; Implementar funçao para mesclar dois arrays ordenados" />
     <MESSAGE value="Criar classe MergeSort; Implementar funçao para ordenar o array;" />
     <MESSAGE value="Criar classe QuickSort; Implementar funçao para ordenar o array;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criar classe QuickSort; Implementar funçao para ordenar o array;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/graph/Graph.java</url>
-          <line>19</line>
-          <properties class="graph.Graph" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Criar classe Graph; Implementar funçao variaveis, Construtor, funçao para adicionar arestas e printar na tela os valores do grafo;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criar classe Graph; Implementar funçao variaveis, Construtor, funçao para adicionar arestas e printar na tela os valores do grafo;" />
   </component>
 </project>
