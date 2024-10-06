@@ -17,6 +17,7 @@ public class ListGraph {
         for (int i = 0; i < nodes; i++) {
             this.adjList[i] = new LinkedList<>();
         }
+
     }
 
     public void addEdge(int i, int j) {
@@ -58,20 +59,6 @@ public class ListGraph {
     }
 
 
-    public void dfsRecursive(int s) {
-        boolean[] visited = new boolean[V];
-        dfsRecursive(s, visited);
-    }
-
-    private void dfsRecursive(int s, boolean[] visited) {
-        visited[s] = true;
-        System.out.print(s + " ");
-        for (int v : adjList[s]) {
-            if (!visited[v]) {
-                dfsRecursive(v, visited);
-            }
-        }
-    }
 
 
     public void printGraph() {
@@ -98,8 +85,7 @@ public class ListGraph {
         System.out.println("DFS");
         graph.dfs(0);
         System.out.println();
-        System.out.println("DFS Recursive");
-        graph.dfsRecursive(0);
+
     }
 
 

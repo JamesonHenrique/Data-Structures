@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Refatorar ListGraph;">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ListGraph.java" afterDir="false" />
     </list>
@@ -31,6 +31,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -84,10 +85,9 @@
     "Application.stack.array.Stack.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "com.github.blarc.ai.commits.intellij.plugin.settings.AppSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="Application.ListGraph">
@@ -181,14 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Implementar funçoes: deleter o primeiro elemento, deletar o ultimo elemento e deletar por posiçao do linkdlist">
-      <option name="closed" value="true" />
-      <created>1721876043473</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1721876043473</updated>
     </task>
     <task id="LOCAL-00009" summary="Implementar funçao para achar um elemento no linked list">
       <option name="closed" value="true" />
@@ -574,11 +566,29 @@
       <option name="project" value="LOCAL" />
       <updated>1728102077546</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434">
+      <option name="closed" value="true" />
+      <created>1728181383855</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1728181383856</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementar funçoes para adicionar elementos na Fila e remover(enqueue/dequeue)" />
     <MESSAGE value="Testar funçoes do Queue" />
     <MESSAGE value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
     <MESSAGE value="Implementar funçao preOrder interativa;" />
@@ -603,6 +613,7 @@
     <MESSAGE value="Refatorar codigo do Graph; Adicionar variaveis V de vertices e E de arestas e implementar nas funçoes;" />
     <MESSAGE value="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;" />
     <MESSAGE value="Refatorar ListGraph;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorar ListGraph;" />
+    <MESSAGE value="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434" />
+    <option name="LAST_COMMIT_MESSAGE" value="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434" />
   </component>
 </project>

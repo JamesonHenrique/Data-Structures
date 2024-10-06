@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.github.blarc.ai.commits.intellij.plugin.settings.ProjectSettings" activeLlmClientId="2d76b423-1377-46fe-a46a-91516448f028" isProjectSpecificLLMClient="true">
+    <option name="projectSpecificLLMClient" value="true" />
+  </component>
+</project>
