@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="">
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao bfs, dfs no ListGraph">
+      <change afterPath="$PROJECT_DIR$/src/hashing/HashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/ListGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "Application.FindMissingNumber.executor": "Run",
     "Application.FindSecondMaxNum.executor": "Run",
     "Application.Graph.executor": "Run",
+    "Application.HashTable.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.LinearSeach.executor": "Run",
     "Application.ListGraph.executor": "Run",
@@ -90,7 +91,20 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListGraph">
+  <component name="RunManager" selected="Application.HashTable">
+    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashing.HashTable" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.ListGraph" />
       <module name="Data-Structures" />
@@ -130,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.MergeSort" />
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.QuickSort" />
       <module name="Data-Structures" />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.ListGraph" />
         <item itemvalue="Application.MatrixGraph" />
         <item itemvalue="Application.MaxPQ" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Implementar funçao para achar um elemento no linked list">
-      <option name="closed" value="true" />
-      <created>1722314643352</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1722314643352</updated>
     </task>
     <task id="LOCAL-00010" summary="Leetcode #206: Implementar funçao para reverter um LinkedList">
       <option name="closed" value="true" />
@@ -574,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728181383856</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Implementar funçao bfs, dfs no ListGraph">
+      <option name="closed" value="true" />
+      <created>1728182413366</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1728182413367</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testar funçoes do Queue" />
     <MESSAGE value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
     <MESSAGE value="Implementar funçao preOrder interativa;" />
     <MESSAGE value="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa" />
@@ -614,6 +614,7 @@
     <MESSAGE value="Refatorar clase Graph para MatrixGraph; Criar classe ListGraph; Implementar funçao variaveis, Construtor, subclasse Node, funçao para adicionar arestas e printar na tela os valores do grafo;" />
     <MESSAGE value="Refatorar ListGraph;" />
     <MESSAGE value="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434" />
-    <option name="LAST_COMMIT_MESSAGE" value="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434" />
+    <MESSAGE value="Implementar funçao bfs, dfs no ListGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao bfs, dfs no ListGraph" />
   </component>
 </project>
