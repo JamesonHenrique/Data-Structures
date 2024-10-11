@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementar funçao bfs, dfs no ListGraph">
-      <change afterPath="$PROJECT_DIR$/src/hashing/HashTable.java" afterDir="false" />
+    <list default="true" id="a369825f-7932-4024-aaeb-2bc577443f34" name="Changes" comment="Implementação da classe HashTable com métodos de inserção, busca e remoção">
+      <change afterPath="$PROJECT_DIR$/src/Trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashing/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashing/HashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Kotlin Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -47,50 +50,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.ArrayUtil.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BinaryTree.executor": "Run",
-    "Application.BinaryTreeSearch.executor": "Run",
-    "Application.CircularSinglyLinkedList.executor": "Run",
-    "Application.DoublyLinkedList.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindSecondMaxNum.executor": "Run",
-    "Application.Graph.executor": "Run",
-    "Application.HashTable.executor": "Run",
-    "Application.InsertionSort.executor": "Run",
-    "Application.LinearSeach.executor": "Run",
-    "Application.ListGraph.executor": "Run",
-    "Application.MatrixGraph.executor": "Run",
-    "Application.MaxHP.executor": "Run",
-    "Application.MaxPQ.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MergeSortedArrays.executor": "Run",
-    "Application.MergeTwoSortedLists.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.Queue.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.RemoveEvenInteger.executor": "Run",
-    "Application.Resize.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.ReverseSimplyLinkedList.executor": "Run",
-    "Application.SimplyLinkedList.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.Stack.executor": "Run",
-    "Application.StringReverse.executor": "Run",
-    "Application.findMinimumArray.executor": "Run",
-    "Application.sorting.InsertionSort.executor": "Run",
-    "Application.stack.array.Stack.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTreeSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CircularSinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindSecondMaxNum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Graph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSeach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxHP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxPQ.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveEvenInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Resize.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseSimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimplyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReverse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findMinimumArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sorting.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stack.array.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.HashTable">
     <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashing.HashTable" />
@@ -182,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720926139786</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Leetcode #206: Implementar funçao para reverter um LinkedList">
-      <option name="closed" value="true" />
-      <created>1722392264583</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1722392264583</updated>
     </task>
     <task id="LOCAL-00011" summary="Implementar funçao para saber qual é o elemento do medio do LinkedList;&#10;Implementar funçao para encontrar o enesimo do final do LinkedList">
       <option name="closed" value="true" />
@@ -575,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728182413367</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Implementação da classe HashTable com métodos de inserção, busca e remoção">
+      <option name="closed" value="true" />
+      <created>1728613675445</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1728613675446</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Criar uma BinaryTree;&#10;Implementar funçoes basicas;&#10;Implementar funçao preOrder;" />
     <MESSAGE value="Implementar funçao preOrder interativa;" />
     <MESSAGE value="Implementar funçao inOrder recursiva e interativa/&#10;Implementar funçao postOrder recursiva e interativa" />
     <MESSAGE value="Implementar funçao levelOrder;&#10;Implementar funçao interativa e recursiva de encontrar o valor maximo de uma arvore binaria" />
@@ -615,6 +617,7 @@
     <MESSAGE value="Refatorar ListGraph;" />
     <MESSAGE value="java.lang.RuntimeException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:11434" />
     <MESSAGE value="Implementar funçao bfs, dfs no ListGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar funçao bfs, dfs no ListGraph" />
+    <MESSAGE value="Implementação da classe HashTable com métodos de inserção, busca e remoção" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação da classe HashTable com métodos de inserção, busca e remoção" />
   </component>
 </project>

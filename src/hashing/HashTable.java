@@ -62,6 +62,7 @@ public class HashTable {
         }
     }
 
+
     public void display() {
         for (int i = 0; i < size; i++) {
             HashNode temp = buckets[i];
